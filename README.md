@@ -66,20 +66,22 @@ git remote add origin master Seu link https do repositorio
 Exemplo: git remote add orihin master https://github.com/M3nin0/Aprendendo_Git.git
 
 #Pull
+
 Depois de definir basta dar pull para sincronizar o repositorio local com o repositorio do gitub
 
 git pull origin "Nome da branch"
 
-#Exemplo
+Exemplo
 
 git pull origin master
 
+#Push 
 
-#Para subir as informações da maquina para o servidor 
+Para subir as informações da maquina para o servidor 
 
 git push origin "nome da branch"
 
-#Exemplo
+Exemplo
 
 git push origin master
 
