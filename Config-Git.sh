@@ -26,6 +26,10 @@ read email
 echo "Fazendo a configuração"
 git config --global user.name "$name" 2>/dev/null
 git config --global user.email "$email" 2>/dev/null
+echo "Verificando configuração"
+git config --global user.name
+git config --global user.email
+sleep 5
 echo "Pronto!"
 ;;
 
